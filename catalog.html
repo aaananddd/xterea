@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Catalog</title>
-    <!-- Bootstrap CSS -->
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Xteria Design | Elegant and supreme wall cladding solutions</title>
+
+    <!-- Mobile Specific Metas -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Xteriadesign.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <!-- CSS -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
-    <!-- Custom CSS -->
+    <!-- Animation -->
+    <link rel="stylesheet" href="vendor/animate-css/animate.css">
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="vendor/colorbox/colorbox.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom styles for catalog page -->
     <style>
-        body {
+        .catalog-section {
             background-color: #f8f9fa;
-            color: #343a40;
-            font-family: 'Times New Roman', Times, serif;
+            padding: 30px 20px;
         }
-        .container {
-            margin-top: 30px;
-            padding: 20px;
-        }
-        .header h1 {
-            font-size: 2.5rem;
-            font-style: normal;
+
+        .catalog-section .header h1 {
+            font-size: 1.5rem;
             color: #050606;
             margin-bottom: 20px;
-            text-align: center;
+            text-align: start;
         }
-        .list-group-item {
+
+        .catalog-section .list-group-item {
             border: none;
             border-radius: 0.5rem;
             padding: 15px;
@@ -35,61 +48,177 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             transition: box-shadow 0.3s ease, background-color 0.3s ease;
         }
-        .list-group-item:hover {
+
+        .catalog-section .list-group-item:hover {
             background-color: #e9ecef;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .list-group-item i {
-            color: #dc3545; /* Red color for icons */
+
+        .catalog-section .list-group-item i {
+            color: #dc3545;
             font-size: 1.5rem;
         }
-        .list-group-item .catalog-name {
-            font-size: 1rem; /* Reduced font size */
+
+        .catalog-section .list-group-item .catalog-name {
+            font-size: 1rem;
             margin-left: 10px;
-            color: #000000; /* Black color for catalog names */
-            font-weight: normal; /* Remove bold styling */
+            color: #000000;
+            font-weight: normal;
         }
-        .list-group-item .download-icon {
+
+        .catalog-section .list-group-item .download-icon {
             color: #3e4043;
             font-size: 1.25rem;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Download Catalog</h1>
+    <div class="body-inner">
+        <!-- Header start -->
+        <header id="header" class="header-one">
+            <div class="bg-white p-3">
+                <div class="container">
+                    <div class="logo-area p-0">
+                        <div class="row align-items-center">
+                            <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                                <a class="d-block" href="index.html">
+                                    <img loading="lazy" src="images/logo.svg" alt="xteria">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="site-navigation">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                                        data-target=".navbar-collapse" aria-controls="navbar-collapse"
+                                                        aria-expanded="false" aria-label="Toggle navigation">
+                                                        <span class="navbar-toggler-icon"></span>
+                                                    </button>
+                                                    <div id="navbar-collapse" class="collapse navbar-collapse">
+                                                        <ul class="nav navbar-nav ml-auto">
+                                                            <li class="nav-item active"><a class="nav-link"
+                                                                    href="index.html">Home</a></li>
+                                                            <li class="nav-item dropdown">
+                                                                <a href="#" class="nav-link dropdown-toggle"
+                                                                    data-toggle="dropdown">Products <i
+                                                                        class="fa fa-angle-down"></i></a>
+                                                                <ul class="dropdown-menu" role="menu">
+                                                                    <li><a href="cast-stones.html">Cast Stone</a></li>
+                                                                    <li><a href="brick-clads.html">Brick Clads</a></li>
+                                                                    <li><a href="natur-ale.html">Natur'ale</a></li>
+                                                                    <li><a href="memuraa.html">Memuraa</a></li>
+                                                                    <li><a href="panels.html">Panels</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="nav-item"><a class="nav-link"
+                                                                    href="contact.html">Contact</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Row end -->
+                    </div><!-- Container end -->
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <!-- Catalog Section -->
+        <div class="catalog-section">
+            <div class="container">
+                <div class="header">
+                    <h1>Download Catalog</h1>
+                </div>
+                <div class="list-group">
+                    <a href="images/pdfs/Cast-Stone.pdf" class="list-group-item" download="cast-stone-catalog.pdf">
+                        <i class="fas fa-file-pdf"></i>
+                        <span class="catalog-name">Cast-Stone-Catalog</span>
+                    </a>
+                    <a href="images/pdfs/Brick-Clads.pdf" class="list-group-item" download="brick-clads-catalog.pdf">
+                        <i class="fas fa-file-pdf"></i>
+                        <span class="catalog-name">Brick-Clads-Catalog</span>
+                    </a>
+                    <a href="images/pdfs/Natur-Ale.pdf" class="list-group-item" download="naturale-catalog.pdf">
+                        <i class="fas fa-file-pdf"></i>
+                        <span class="catalog-name">Natur'ale-Catalog</span>
+                    </a>
+                    <a href="images/pdfs/Memuraa.pdf" class="list-group-item" download="memuraa-catalog.pdf">
+                        <i class="fas fa-file-pdf"></i>
+                        <span class="catalog-name">Memuraa-Catalog</span>
+                    </a>
+                    <a href="images/pdfs/Panels.pdf" class="list-group-item" download="panels-catalog.pdf">
+                        <i class="fas fa-file-pdf"></i>
+                        <span class="catalog-name">Panels-Catalog</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="list-group">
-            <a href="images/pdfs/Cast-Stone.pdf" class="list-group-item" download="cast-stone-catalog.pdf">
-                <i class="fas fa-file-pdf"></i>
-                <span class="catalog-name">Cast-Stone-Catalog</span>
-            </a>
-            <a href="images/pdfs/Brick-Clads.pdf" class="list-group-item" download="brick-clads-catalog.pdf">
-                <i class="fas fa-file-pdf"></i>
-                <span class="catalog-name">Brick-Clads-Catalog</span>
-            </a>
-            <a href="images/pdfs/Natur-Ale.pdf" class="list-group-item" download="naturale-catalog.pdf">
-                <i class="fas fa-file-pdf"></i>
-                <span class="catalog-name">Natur'ale-Catalog</span>
-            </a>
-            <a href="images/pdfs/Memuraa.pdf" class="list-group-item" download="memuraa-catalog.pdf">
-                <i class="fas fa-file-pdf"></i>
-                <span class="catalog-name">Memuraa-Catalog</span>
-            </a>
-            <a href="images/pdfs/Panels.pdf" class="list-group-item" download="panels-catalog.pdf">
-                <i class="fas fa-file-pdf"></i>
-                <span class="catalog-name">Panels-Catalog</span>
-            </a>
-        </div>
-    </div>
-    <!-- jQuery Library -->
-    <script src="vendor/jQuery/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
+        <!-- Catalog Section end -->
+
+        <!-- Footer start -->
+        <footer id="footer" class="footer bg-overlay">
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 col-md-6 footer-widget footer-about">
+                            <h3 class="widget-title">About Us</h3>
+                            <img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo.svg"
+                                alt="Constra">
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div><!-- Footer social end -->
+                        </div><!-- Col end -->
+
+                        <div class="col-lg-8 col-md-6 mt-5 mt-lg-0 footer-widget">
+                            <h3 class="widget-title">Products</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-arrow">
+                                        <li><a href="#">Cast Stone</a></li>
+                                        <li><a href="#">Brick Clads</a></li>
+                                        <li><a href="#">Natur'ale</a></li>
+                                        <li><a href="#">Memuraa</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-arrow">
+                                        <li><a href="#">Panels</a></li>
+                                        <li><a href="catalog.html">Download Catalog</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- Col end -->
+                    </div><!-- Row end -->
+                </div><!-- Container end -->
+            </div><!-- Footer Main end -->
+        </footer><!-- Footer end -->
+    </div><!-- Body Inner end -->
+
+    <!-- Scroll to Top -->
+    <a id="scroll-to-top" data-toggle="tooltip" title="Scroll to Top" href="#"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript -->
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
-    <!-- FontAwesome -->
-    <script src="vendor/fontawesome/js/all.min.js"></script>
-    <!-- Custom Script -->
-    <script src="js/script.js"></script>
+    <!-- Slick Carousel -->
+    <script src="vendor/slick/slick.min.js"></script>
+    <!-- Colorbox -->
+    <script src="vendor/colorbox/jquery.colorbox-min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/custom.js"></script>
 </body>
+
 </html>
