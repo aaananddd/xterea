@@ -1,0 +1,13 @@
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <text transform="matrix(2.86932 0 0 2.86932 -185.488 -61.1847)" font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Poppins'" font-size="24" id="svg_1" y="52.20824" x="86.02243" stroke-width="0" fill="#000000">TERIA</text>
+  <path transform="rotate(23.4575 44.3825 52.8164)" id="svg_3" d="m41.2427,12.96741l8.14465,-3.07251l-1.59227,82.17351l-8.41738,3.66942l1.86501,-82.77042z" opacity="undefined" stroke-width="0" fill="#ff7f00"/>
+  <path transform="rotate(148.518 44.406 67.2974)" id="svg_2" d="m38.29847,13.0578l11.65407,7.53947l0.56095,100.93969l-11.74756,-6.45272l-0.46745,-102.02644z" opacity="undefined" stroke-width="0" fill="#ff7f00"/>
+  <line stroke="#ff7f00" stroke-width="5" id="svg_10" y2="57.07274" x2="282.67642" y1="57.07274" x1="253.77914" fill="none"/>
+  <line stroke="#ff7f00" stroke-width="5" id="svg_6" y2="43.41424" x2="277.79839" y1="43.41424" x1="248.90111" fill="none"/>
+  <line stroke="#ff7f00" stroke-width="5" id="svg_7" y2="70.73123" x2="288.04226" y1="70.73123" x1="259.14498" fill="none"/>
+  <line stroke="#ff7f00" stroke-width="5" id="svg_5" y2="84.89676" x2="293.42733" y1="84.89676" x1="264.53005" fill="none"/>
+ </g>
+
+</svg>

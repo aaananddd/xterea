@@ -1,0 +1,9 @@
+<svg width="360" height="170" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <text transform="matrix(7.28353 0 0 7.28353 -585.107 -450.12)" stroke="#7f3f00" font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Poppins'" font-size="24" id="svg_1" y="81.54994" x="82.00375" stroke-width="0" fill="#7f3f00">X</text>
+  <text style="cursor: move;" transform="matrix(3.42682 0 0 3.42682 -325.194 -170.56)" stroke="#ffffff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Poppins'" font-size="24" id="svg_2" y="85.28645" x="126.41279" stroke-width="0" fill="#ffffff">TERIA</text>
+  <line stroke="#7f3f00" fill-opacity="0" stroke-width="10" id="svg_4" y2="138.5" x2="338.00889" y1="138.5" x1="105.99999" fill="none"/>
+ </g>
+
+</svg>
