@@ -1,53 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download Catalog</title>
-    <!-- Bootstrap -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container {
+            margin-top: 30px;
+            padding: 20px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            font-style: normal;
+            color: #050606;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .list-group-item {
+            border: none;
+            border-radius: 0.5rem;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+        .list-group-item:hover {
+            background-color: #e9ecef;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .list-group-item i {
+            color: #dc3545; /* Red color for icons */
+            font-size: 1.5rem;
+        }
+        .list-group-item .catalog-name {
+            font-size: 1rem; /* Reduced font size */
+            margin-left: 10px;
+            color: #000000; /* Black color for catalog names */
+            font-weight: normal; /* Remove bold styling */
+        }
+        .list-group-item .download-icon {
+            color: #3e4043;
+            font-size: 1.25rem;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container mt-5">
-        <h1 class="mb-4">Download Catalog</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Download Catalog</h1>
+        </div>
         <div class="list-group">
-            <a href="images/pdfs/Cast-Stone.pdf" class="list-group-item list-group-item-action"
-                download="cast-stone-catalog.pdf">
-                <i class="fas fa-file-pdf"></i> Cast Stone Catalog
+            <a href="images/pdfs/Cast-Stone.pdf" class="list-group-item" download="cast-stone-catalog.pdf">
+                <i class="fas fa-file-pdf"></i>
+                <span class="catalog-name">Cast-Stone-Catalog</span>
+                <i class="fas fa-download download-icon float-end"></i>
             </a>
-            <a href="images/pdfs/Brick-Clads.pdf" class="list-group-item list-group-item-action"
-                download="brick-clads-catalog.pdf">
-                <i class="fas fa-file-pdf"></i> Brick Clads Catalog
+            <a href="images/pdfs/Brick-Clads.pdf" class="list-group-item" download="brick-clads-catalog.pdf">
+                <i class="fas fa-file-pdf"></i>
+                <span class="catalog-name">Brick-Clads-Catalog</span>
+                <i class="fas fa-download download-icon float-end"></i>
             </a>
-            <a href="images/pdfs/Natur-Ale.pdf" class="list-group-item list-group-item-action"
-                download="naturale-catalog.pdf">
-                <i class="fas fa-file-pdf"></i> Natur'ale Catalog
+            <a href="images/pdfs/Natur-Ale.pdf" class="list-group-item" download="naturale-catalog.pdf">
+                <i class="fas fa-file-pdf"></i>
+                <span class="catalog-name">Natur'ale-Catalog</span>
+                <i class="fas fa-download download-icon float-end"></i>
             </a>
-            <a href="images/pdfs/Memuraa.pdf" class="list-group-item list-group-item-action"
-                download="memuraa-catalog.pdf">
-                <i class="fas fa-file-pdf"></i> Memuraa Catalog
+            <a href="images/pdfs/Memuraa.pdf" class="list-group-item" download="memuraa-catalog.pdf">
+                <i class="fas fa-file-pdf"></i>
+                <span class="catalog-name">Memuraa-Catalog</span>
+                <i class="fas fa-download download-icon float-end"></i>
             </a>
-            <a href="images/pdfs/Panels.pdf" class="list-group-item list-group-item-action"
-                download="panels-catalog.pdf">
-                <i class="fas fa-file-pdf"></i> Panels Catalog
+            <a href="images/pdfs/Panels.pdf" class="list-group-item" download="panels-catalog.pdf">
+                <i class="fas fa-file-pdf"></i>
+                <span class="catalog-name">Panels-Catalog</span>
+                <i class="fas fa-download download-icon float-end"></i>
             </a>
         </div>
     </div>
-
     <!-- jQuery Library -->
     <script src="vendor/jQuery/jquery.min.js"></script>
-    <!-- Bootstrap jQuery -->
+    <!-- Bootstrap JS -->
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <!-- FontAwesome -->
     <script src="vendor/fontawesome/js/all.min.js"></script>
     <!-- Custom Script -->
     <script src="js/script.js"></script>
 </body>
-
 </html>
